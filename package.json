@@ -1,0 +1,20 @@
+{
+  "name": "vanya-handlooms",
+  "version": "1.0.0",
+  "description": "VANYA Handlooms - Authentic Handcrafted Indian Sarees & Pure Silks",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site ready for deployment'",
+    "start": "serve ."
+  },
+  "keywords": [
+    "handloom",
+    "sarees",
+    "kerala-kasavu",
+    "silk-sarees",
+    "ecommerce",
+    "boutique"
+  ],
+  "author": "swathiswetha9677-cyber",
+  "license": "MIT"
+}
