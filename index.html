@@ -1,0 +1,484 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>VANYA Handlooms | Authentic Handcrafted Indian Sarees & Pure Silks</title>
+    <meta name="title" content="VANYA Handlooms | Authentic Handcrafted Indian Sarees & Pure Silks">
+    <meta name="description" content="Discover handcrafted authentic Indian handloom sarees, Kerala Kasavu, heritage pure silks, and bridal collections at VANYA Handlooms. Free shipping on orders above ₹2,000.">
+    <meta name="keywords" content="Handloom Sarees, Kerala Kasavu Saree, Pure Silk Sarees, Bridal Sarees, Indian Ethnic Wear, Authentic Handlooms, Wedding Sarees, Zari Sarees, Vanya Handlooms">
+    <meta name="author" content="VANYA Handlooms">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#6b1d2a">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="VANYA Handlooms">
+    <meta property="og:title" content="VANYA Handlooms | Authentic Handcrafted Indian Sarees & Pure Silks">
+    <meta property="og:description" content="Discover handcrafted sarees woven with tradition, elegance and love — from the looms of India to your wardrobe. Complimentary shipping on orders above ₹2,000.">
+    <meta property="og:url" content="https://vanyahandlooms.com/">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VANYA Handlooms | Authentic Handcrafted Indian Sarees">
+    <meta name="twitter:description" content="Discover handcrafted sarees woven with tradition, elegance and love — from the looms of India to your wardrobe.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Structured Data: Organization & ClothingStore Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ClothingStore",
+          "@id": "https://vanyahandlooms.com/#store",
+          "name": "VANYA Handlooms",
+          "url": "https://vanyahandlooms.com",
+          "description": "Authentic handloom sarees, Kerala Kasavu, and pure silk boutique crafted by master weavers.",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Net Banking",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Kerala",
+            "addressCountry": "IN"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Handloom Sarees Catalog",
+            "itemListElement": [
+              {
+                "@type": "OfferCatalog",
+                "name": "Kerala Kasavu Sarees"
+              },
+              {
+                "@type": "OfferCatalog",
+                "name": "Heritage Silk Sarees"
+              },
+              {
+                "@type": "OfferCatalog",
+                "name": "Golden Zari Sarees"
+              },
+              {
+                "@type": "OfferCatalog",
+                "name": "Bridal Silk Sarees"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://vanyahandlooms.com/#website",
+          "url": "https://vanyahandlooms.com",
+          "name": "VANYA Handlooms",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://vanyahandlooms.com/collection.html?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        Complimentary shipping on orders above <span>₹2,000</span> &nbsp;·&nbsp; Authentic Handloom Guarantee
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" class="menu-toggle" id="menuToggle">
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <label for="menuToggle" class="mobile-close" aria-label="Close menu">✕</label>
+        <a href="#home" onclick="document.getElementById('menuToggle').checked=false">Home</a>
+        <a href="#collections" onclick="document.getElementById('menuToggle').checked=false">Collections</a>
+        <a href="#sarees" onclick="document.getElementById('menuToggle').checked=false">Sarees</a>
+        <a href="#story" onclick="document.getElementById('menuToggle').checked=false">Our Story</a>
+        <a href="#contact" onclick="document.getElementById('menuToggle').checked=false">Contact</a>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">
+            VANYA
+            <span>HANDLOOMS</span>
+        </a>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#sarees">Sarees</a>
+            <a href="#story">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button aria-label="Search" class="search-btn" id="searchBtn" title="Search Sarees">⌕</button>
+            <button aria-label="Wishlist" class="wishlist-header-btn" id="wishlistHeaderBtn" title="View Wishlist">
+                ♡
+                <span class="wishlist-badge" id="wishlistBadge">0</span>
+            </button>
+            <button aria-label="Cart" class="cart-btn" id="cartBtn" title="View Bag">
+                🛍
+                <span class="cart-badge" id="cartBadge">0</span>
+            </button>
+        </div>
+        <label for="menuToggle" class="menu-button" aria-label="Menu">☰</label>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-frame"></div>
+            <div class="hero-content">
+                <p class="eyebrow">VANYA HANDLOOMS</p>
+                <h1>The Art of<br><em>Indian Heritage</em></h1>
+                <p>Discover timeless handlooms inspired by tradition, crafted for today.</p>
+                <a href="collection.html" class="gold-button">Explore Collection <span class="arrow">→</span></a>
+            </div>
+        </section>
+
+        <!-- Trust Badges -->
+        <section class="trust-section">
+            <div class="trust-grid">
+                <div class="trust-item reveal">
+                    <div class="trust-icon">🧵</div>
+                    <h4>100% Handwoven</h4>
+                    <p>Crafted by skilled artisans</p>
+                </div>
+                <div class="trust-item reveal reveal-d1">
+                    <div class="trust-icon">🚚</div>
+                    <h4>Free Shipping</h4>
+                    <p>On orders above ₹2,000</p>
+                </div>
+                <div class="trust-item reveal reveal-d2">
+                    <div class="trust-icon">↩️</div>
+                    <h4>Easy Returns</h4>
+                    <p>7-day hassle-free returns</p>
+                </div>
+                <div class="trust-item reveal reveal-d3">
+                    <div class="trust-icon">✨</div>
+                    <h4>Quality Assured</h4>
+                    <p>Inspected before dispatch</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections -->
+        <section class="section collections" id="collections">
+            <div class="section-heading">
+                <p class="eyebrow burgundy-text">EXPLORE</p>
+                <div class="section-divider"><span style="color:var(--gold);font-size:14px;">✦</span></div>
+                <h2>Our Collections</h2>
+                <p>A curated selection of timeless Indian handloom traditions.</p>
+            </div>
+            <div class="collection-grid">
+                <a href="collection.html?category=Silk+Collection" class="collection-card reveal">
+                    <div class="collection-image silk"></div>
+                    <div class="collection-info">
+                        <h3>Silk Sarees</h3>
+                        <span>Discover →</span>
+                    </div>
+                </a>
+                <a href="collection.html?category=Kerala+Handloom" class="collection-card reveal reveal-d1">
+                    <div class="collection-image handloom"></div>
+                    <div class="collection-info">
+                        <h3>Handloom Sarees</h3>
+                        <span>Discover →</span>
+                    </div>
+                </a>
+                <a href="collection.html?category=Bridal+Collection" class="collection-card reveal reveal-d2">
+                    <div class="collection-image wedding"></div>
+                    <div class="collection-info">
+                        <h3>Wedding Collection</h3>
+                        <span>Discover →</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sarees -->
+        <section class="sarees-section" id="sarees">
+            <div class="section-heading light-heading">
+                <p class="eyebrow">VANYA EDIT</p>
+                <div class="section-divider"><span style="color:var(--light-gold);font-size:14px;">✦</span></div>
+                <h2>Featured Sarees</h2>
+                <p>Handpicked pieces from our latest collection.</p>
+            </div>
+            <div class="product-grid" id="productGrid">
+                <!-- Products loaded dynamically from Supabase database -->
+            </div>
+            <div class="center-button" style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+                <a href="collection.html" class="gold-button">View Full Collection →</a>
+                <button type="button" class="outline-button" id="refreshProductsBtn">Refresh Collection</button>
+            </div>
+        </section>
+
+        <!-- Story -->
+        <section class="story" id="story">
+            <div class="story-image reveal"></div>
+            <div class="story-content">
+                <p class="eyebrow burgundy-text">Our Story</p>
+                <h2 class="reveal">Woven with<br>Tradition</h2>
+                <p class="reveal reveal-d1">VANYA Handlooms celebrates the beauty of India's rich weaving traditions.</p>
+                <p class="reveal reveal-d2">Every saree is chosen for its craftsmanship, texture and timeless character — bringing heritage into the modern wardrobe.</p>
+                <a href="#" class="story-link reveal reveal-d3">Discover Our Story <span>→</span></a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <p class="eyebrow">STAY CONNECTED</p>
+            <h2>Be the first to discover</h2>
+            <p>New collections, handloom stories and exclusive updates.</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2>VANYA</h2>
+                <span>HANDLOOMS</span>
+                <p>Timeless sarees. Authentic handlooms.<br>Woven with love from Kerala, India.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <a href="#">Silk Sarees</a>
+                <a href="#">Handloom Sarees</a>
+                <a href="#">Wedding Sarees</a>
+                <a href="#">New Arrivals</a>
+            </div>
+            <div class="footer-column">
+                <h3>Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>hello@vanyahandlooms.com</p>
+                <p>Kerala, India</p>
+                <p>Instagram · Facebook</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 VANYA Handlooms. All rights reserved.</p>
+            <p>Tradition · Craftsmanship · Elegance</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Drawer -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+        <div class="cart-header">
+            <h3>Your Bag (<span id="cartCountHeader">0</span>)</h3>
+            <button class="cart-close" id="cartCloseBtn" aria-label="Close cart">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Dynamic cart items rendered here -->
+        </div>
+        <div class="cart-footer" id="cartFooter">
+            <div class="cart-subtotal">
+                <span>Subtotal</span>
+                <strong id="cartSubtotal">₹0</strong>
+            </div>
+            <p class="cart-note">Complimentary shipping on orders above ₹2,000</p>
+            <button class="cart-checkout-btn" id="checkoutBtn">Proceed to Checkout →</button>
+        </div>
+    </aside>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-overlay" id="checkoutOverlay">
+        <div class="checkout-modal" id="checkoutModal">
+            <div class="checkout-header">
+                <div>
+                    <p class="eyebrow" style="color:var(--gold); font-size:9px; letter-spacing:2px; margin-bottom:2px;">SECURE CHECKOUT</p>
+                    <h2>Delivery Details & Order Summary</h2>
+                </div>
+                <button class="checkout-close" id="checkoutCloseBtn" aria-label="Close checkout">✕</button>
+            </div>
+            <div class="checkout-body">
+                <!-- Customer Details Form -->
+                <form class="checkout-form" id="checkoutForm" novalidate>
+                    <h3 class="checkout-section-title">1. Shipping Address</h3>
+                    <div class="form-row">
+                        <div class="form-group full">
+                            <label for="custName">Customer Full Name <span class="req">*</span></label>
+                            <input type="text" id="custName" name="name" placeholder="e.g. Ananya Sharma" required>
+                            <span class="field-error" id="custNameError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group full">
+                            <label for="custPhone">WhatsApp / Mobile Number <span class="req">*</span></label>
+                            <input type="tel" id="custPhone" name="phone" placeholder="10-digit mobile number (e.g. 9876543210)" pattern="[0-9]{10}" maxlength="10" required>
+                            <span class="field-error" id="custPhoneError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group full">
+                            <label for="custAddress">House / Flat No., Building & Street Address <span class="req">*</span></label>
+                            <input type="text" id="custAddress" name="address" placeholder="e.g. Flat 4B, Palm Grove Residency, MG Road" required>
+                            <span class="field-error" id="custAddressError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row three-col">
+                        <div class="form-group">
+                            <label for="custCity">City <span class="req">*</span></label>
+                            <input type="text" id="custCity" name="city" placeholder="e.g. Kochi" required>
+                            <span class="field-error" id="custCityError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="custState">State <span class="req">*</span></label>
+                            <input type="text" id="custState" name="state" placeholder="e.g. Kerala" required>
+                            <span class="field-error" id="custStateError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="custPincode">PIN Code <span class="req">*</span></label>
+                            <input type="text" id="custPincode" name="pincode" placeholder="6-digit PIN" pattern="[0-9]{6}" maxlength="6" required>
+                            <span class="field-error" id="custPincodeError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group full">
+                            <label for="custNotes">Order Notes / Customization Request <span>(Optional)</span></label>
+                            <input type="text" id="custNotes" name="notes" placeholder="e.g. Fall & edging request, gift packaging">
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Order Summary Sidebar -->
+                <div class="checkout-summary">
+                    <h3 class="checkout-section-title">2. Order Summary</h3>
+                    <div class="checkout-items-list" id="checkoutItemsList">
+                        <!-- Rendered dynamically by script.js -->
+                    </div>
+                    <div class="checkout-calc">
+                        <div class="checkout-calc-row">
+                            <span>Bag Subtotal</span>
+                            <span id="checkoutSubtotal">₹0</span>
+                        </div>
+                        <div class="checkout-calc-row">
+                            <span>Shipping</span>
+                            <span class="shipping-free" id="checkoutShipping">Free Delivery</span>
+                        </div>
+                        <div class="checkout-calc-row total">
+                            <strong>Grand Total</strong>
+                            <strong id="checkoutGrandTotal">₹0</strong>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="checkout-actions">
+                        <button type="button" class="btn-whatsapp-order" id="btnWhatsappOrder">
+                            <span>Order via WhatsApp</span>
+                            <span class="btn-subtext">Instant confirmation on WhatsApp 💬</span>
+                        </button>
+                        <button type="button" class="btn-place-order" id="btnPlaceOrder">
+                            <span>Place Order</span>
+                            <span class="btn-subtext">Direct boutique booking & Cash on Delivery 🛍</span>
+                        </button>
+                    </div>
+
+                    <p class="checkout-security-note">🔒 100% Authentic Handloom Guarantee · Verified Kerala Weavers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Confirmation Modal -->
+    <div class="modal-overlay" id="orderSuccessOverlay">
+        <div class="order-success-modal" id="orderSuccessModal">
+            <div class="order-success-icon">✨</div>
+            <h2>Order Placed Successfully!</h2>
+            <p class="order-id-tag">Order Reference: <strong id="successOrderId">#VNY-1001</strong></p>
+            <p class="order-success-msg">Thank you for choosing VANYA Handlooms. Our boutique team will connect with you via WhatsApp / Call for dispatch confirmation and tracking updates.</p>
+            <div class="order-success-details" id="orderSuccessDetails"></div>
+            <div class="order-success-actions">
+                <button type="button" class="gold-button" id="orderSuccessCloseBtn">Continue Shopping →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Drawer -->
+    <div class="wishlist-overlay" id="wishlistOverlay"></div>
+    <aside class="wishlist-drawer" id="wishlistDrawer" aria-label="Wishlist">
+        <div class="wishlist-header">
+            <h3>Saved Sarees (<span id="wishlistCountHeader">0</span>)</h3>
+            <button class="wishlist-close" id="wishlistCloseBtn" aria-label="Close wishlist">✕</button>
+        </div>
+        <div class="wishlist-items" id="wishlistItems">
+            <!-- Dynamic wishlist items rendered here -->
+        </div>
+        <div class="wishlist-footer" id="wishlistFooter">
+            <button class="wishlist-move-btn" id="moveAllToCartBtn">Add All to Bag →</button>
+        </div>
+    </aside>
+
+    <!-- Search Modal -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-modal" id="searchModal">
+            <div class="search-header">
+                <div class="search-input-wrapper">
+                    <span class="search-icon">⌕</span>
+                    <input type="text" id="searchInput" placeholder="Search sarees by name, fabric, collection..." autocomplete="off">
+                    <button class="search-clear" id="searchClearBtn" aria-label="Clear search">✕</button>
+                </div>
+                <button class="search-close" id="searchCloseBtn" aria-label="Close search">✕</button>
+            </div>
+            <div class="search-categories" id="searchCategories">
+                <button class="category-pill active" data-category="all">All</button>
+                <button class="category-pill" data-category="Kerala Handloom">Kerala Handloom</button>
+                <button class="category-pill" data-category="Silk Collection">Silk</button>
+                <button class="category-pill" data-category="Zari Collection">Golden Zari</button>
+                <button class="category-pill" data-category="Bridal Collection">Bridal</button>
+            </div>
+            <div class="search-results-info" id="searchResultsInfo">Showing all sarees</div>
+            <div class="search-results-grid" id="searchResultsGrid">
+                <!-- Search results rendered dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Quick View Modal -->
+    <div class="modal-overlay" id="quickViewOverlay">
+        <div class="quick-view-modal" id="quickViewModal">
+            <button class="modal-close" id="quickViewClose" aria-label="Close modal">✕</button>
+            <div class="quick-view-content" id="quickViewContent">
+                <!-- Rendered dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Supabase CDN + Config + Main Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+        
