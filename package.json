@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "VANYA Handlooms - Authentic Handcrafted Indian Sarees & Pure Silks",
   "main": "index.html",
-  "scripts": {
-    "build": "echo 'Static site ready for deployment'",
-    "start": "serve ."
-  },
   "keywords": [
     "handloom",
     "sarees",
