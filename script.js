@@ -63,8 +63,7 @@ const DEMO_PRODUCTS = [
         stock: 3,
         is_active: true,
         created_at: new Date(Date.now() - 400000).toISOString()
-    }
-];
+    }];
 
 // ===== CURRENCY FORMATTER =====
 function formatCurrency(amount) {
@@ -488,10 +487,10 @@ function renderSearchResults() {
     }
 
     let filtered = productsCache.filter(item => {
-        const matchesCategory = activeSearchCategory === "all" || 
+        const matchesCategory = activeSearchCategory === "all" ||
             (item.category && item.category.toLowerCase() === activeSearchCategory.toLowerCase());
 
-        const matchesQuery = query === "" || 
+        const matchesQuery = query === "" ||
             (item.name && item.name.toLowerCase().includes(query)) ||
             (item.category && item.category.toLowerCase().includes(query)) ||
             (item.description && item.description.toLowerCase().includes(query));
@@ -934,8 +933,8 @@ function handleWhatsAppOrder() {
         return `${idx + 1}. *${item.name}*\n   • Qty: ${item.quantity} × ${formatCurrency(item.price)} = ${formatCurrency(item.price * item.quantity)}`;
     }).join("\n\n");
 
-    const message = 
-`🌸 *NEW ORDER - VANYA HANDLOOMS* 🌸
+    const message =
+        `🌸 *NEW ORDER - VANYA HANDLOOMS* 🌸
 *Order Ref:* #${orderId}
 *Date:* ${orderDate}
 
@@ -964,7 +963,7 @@ _Please confirm availability & share payment/dispatch updates. Thank you! ✨_`;
 
     // Show Confirmation Modal and reset cart
     showOrderSuccess(orderId, formData, subtotal, "WhatsApp Direct Order");
-    
+
     // Clear cart after dispatch
     cart = [];
     saveCart();
