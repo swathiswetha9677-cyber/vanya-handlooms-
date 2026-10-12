@@ -303,11 +303,46 @@ a {
     opacity: 0.4;
 }
 
+/* 2-Column Split Layout */
+.hero-container {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 52% 48%;
+    gap: 48px;
+    align-items: center;
+}
+
 .hero-content {
     position: relative;
     z-index: 3;
     color: white;
-    max-width: 640px;
+    max-width: 620px;
+}
+
+.hero-video-container {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(184, 146, 78, 0.3);
+    background: #14070b;
+    aspect-ratio: 16 / 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
 }
 
 .eyebrow {
@@ -2902,6 +2937,35 @@ a {
 
 /* ===== TABLET ===== */
 @media (max-width: 950px) {
+    .hero {
+        min-height: auto;
+        padding: 70px 6%;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero .eyebrow {
+        justify-content: center;
+    }
+
+    .hero-video-container {
+        max-width: 600px;
+        margin: 0 auto;
+        aspect-ratio: 16 / 9;
+    }
+
     .navigation {
         display: none;
     }
@@ -2971,12 +3035,27 @@ a {
     }
 
     .hero {
-        min-height: 600px;
-        padding: 60px 24px;
+        min-height: auto;
+        padding: 50px 20px 60px;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     .hero h1 {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .hero-video-container {
+        max-width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 8px;
+    }
+
+    .hero-video {
+        border-radius: 8px;
     }
 
     .hero-frame {
